@@ -8,14 +8,18 @@ body {
 .main {
   width: 99vw;
   height: 120vh;
-  background-color: #FFF; }
+  background-color: #A2DED0; }
+  .main h2 {
+    font-size: 3em;
+    font-weight: 400;
+    margin-bottom: 35px; }
 
 /* intro */
 .intro {
-  background-color: #FFF;
-  height: 70vh; }
+  background-color: #A2DED0;
+  height: 80vh; }
   .intro h1 {
-    color: #ffd700;
+    color: #6C7A89;
     font-size: 10em;
     text-align: center;
     font-weight: 500; }
@@ -23,41 +27,45 @@ body {
     font-size: 2em;
     text-align: center;
     line-height: 1em;
-    margin-top: -20px; }
+    margin-top: -40px; }
     .intro h3 div {
       display: inline-block; }
+  .intro button {
+    margin-top: -20px;
+    font-size: 0.6em;
+    width: 200px;
+    height: 45px;
+    margin-bottom: 0; }
   .intro .intro-info {
     font-weight: 300;
     font-size: 3em;
     line-height: 1em;
     text-align: center;
-    color: #ffd700; }
+    color: #6C7A89; }
+  .intro .mentor-apply {
+    font-size: 0.3em;
+    padding: 0; }
 
 #v {
   position: relative;
-  font-size: 25em;
+  font-size: 20em;
   font-family: 'Aroly';
   text-align: center;
-  color: #2ECC71;
+  color: #6C7A89;
   line-height: 1.1em;
-  margin-bottom: -100px; }
+  margin-bottom: -100px;
+  padding-top: 50px; }
 
 /* info */
 .info {
-  background: -webkit-linear-gradient(#2ECC71, #FFF);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#2ECC71, #FFF);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#2ECC71, #FFF);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#2ECC71, #FFF);
+  background-color: #919ca8;
   position: relative;
   font-size: 1.5em;
-  margin: 20px 0 20px 0; }
+  margin: 10px 0 20px 0; }
   .info .content {
-    padding: 200px 30px 0 30px; }
+    padding: 50px 30px 0 30px; }
   .info .sponsors {
-    background-color: #FFF;
+    background-color: #919ca8;
     padding: 30px; }
   .info .contact {
     padding: 30px;
@@ -67,11 +75,24 @@ body {
       font-size: 5em;
       margin-left: auto;
       margin-right: auto; }
+  .info button {
+    background-color: #cacfd5; }
+
+/* faq */
+.faq {
+  margin: 30px;
+  margin-top: 60px; }
+  .faq h2 {
+    font-size: 1.5em;
+    font-weight: 600; }
+  .faq p {
+    font-size: 0.7em;
+    font-weight: 300; }
 
 /* slant */
 .angle:after {
   content: "";
-  border-top: 140px solid #FFF;
+  border-top: 140px solid #A2DED0;
   border-left: 99vw solid transparent;
   position: absolute;
   top: -1px; }
@@ -80,12 +101,12 @@ body {
   position: relative;
   width: 0%;
   height: 0px;
-  border-top: 1px solid #FFF; }
+  border-top: 1px solid #919ca8; }
 
 /* slant */
 .angle2:after {
   content: "";
-  border-top: 140px solid #FFF;
+  border-top: 140px solid #919ca8;
   border-right: 99vw solid transparent;
   position: absolute;
   top: -1px; }
@@ -94,7 +115,7 @@ body {
   position: relative;
   width: 0%;
   height: 0px;
-  border-top: 1px solid #FFF; }
+  border-top: 1px solid #919ca8; }
 
 /* Animations */
 #leangap {

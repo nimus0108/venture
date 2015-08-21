@@ -9,11 +9,18 @@
   <meta name="author" content="Su Min Kim">
 
   <!-- FONT -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
+  <!-- JS -->
+  <script src="js/wow.min.js"></script>
+
+    
   <!-- CSS -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -21,12 +28,44 @@
 </head>
 <body>
 <div class="main">
-    <div class="intro">
-        
-    </div>
-    <div class="info">
-        <p>Venture is Boston’s first hybrid hackathon + startup competition for high school and college students. It invites students from all over the world to Boston for one weekend for an experience that blends together the arts of hacking and bootstrapping a company. Over 24 hours, 350 participants will build and ship products, create business models and pitch, and ultimately compete in front of a panel of New England’s most respected angel investors for investments and prizes. </p>
+    <div class="intro animated">
+        <div id="v" class="animated bounceIn">V</div>
+        <h1 class="animated fadeInUp">venture</h1>
+        <h3 class="animated fadeInDown" id="leangap">by lean<div style="color: #F22613">://</div>gap</h3>
+        <div class="intro-info">
+            <p class="animated fadeInDown">January 9~10</p>
+        </div>
+    </div>    
+    <div class="info wow fadeInUp">
+        <div class="angle"></div>
+        <div class="content">
+            <div class="basic-info">
+                <h2 class="wow fadeIn">Info</h2>
+                <p class="wow fadeInUp">Venture is Boston’s first hybrid hackathon + startup competition for high school and college students. It invites students from all over the world to Boston for one weekend for an experience that blends together the arts of hacking and bootstrapping a company. Over 24 hours, 350 participants will build and ship products, create business models and pitch, and ultimately compete in front of a panel of New England’s most respected angel investors for investments and prizes. </p>
+                <p class="wow fadeInUp">For more detailed information, check out the FAQ:</p>
+                <a href="faq.html/"><button>FAQ</button></a>
+            </div>
+        </div>
+         <div class="sponsors">
+                <h2>Sponsors</h2>
+                <p>Blahbalhaskldfjnlaksjnlksajndflkjsan lfkjan slkfjn alksjn lfkajsn klsajn flkjsn lkfjn salkjnf alskjnf lskajndflskjan flskj nflkjasn lfkjsa nlksfjn flkjsn aflksjdn lfkjn dfsklj nflkjsdn lkfdjn aslkjn fslksjn lkfjn lkdjn flkjn dslkjn sdflkdjsfn lkfjns </p>
+                <a href="#" download><button>Sponsorship Packet</button></a>
+                <a href="mailto:contact@leangap.org?Subject=Venture%20Sponsorship"><button>Email Us</button></a>
+        </div>
+        <div class="angle2"></div>
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p>Feel free to contact us about anything!</p>
+            <a href="mailto:contact@leangap.org?Subject=Venture%20Sponsorship">
+                <i class="fa fa-envelope-o"></i>
+            </a>
+        </div>
     </div>
 </div>
+    <script>
+        new WOW().init();
+    </script>
+    
+    
 </body>
 </html>

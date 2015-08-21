@@ -3,7 +3,8 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Lato', sans-serif;
+  background-color: #A2DED0; }
 
 .main {
   width: 99vw;
@@ -64,22 +65,12 @@ body {
   margin: 10px 0 20px 0; }
   .info .content {
     padding: 50px 30px 0 30px; }
-  .info .sponsors {
-    background-color: #919ca8;
-    padding: 30px; }
-  .info .contact {
-    padding: 30px;
-    margin-top: 60px;
-    text-align: center; }
-    .info .contact i {
-      font-size: 5em;
-      margin-left: auto;
-      margin-right: auto; }
   .info button {
     background-color: #cacfd5; }
 
 /* faq */
 .faq {
+  background-color: #919ca8;
   margin: 30px;
   margin-top: 60px; }
   .faq h2 {
@@ -88,6 +79,27 @@ body {
   .faq p {
     font-size: 0.7em;
     font-weight: 300; }
+
+/* Sponsors */
+.sponsors {
+  background-color: #919ca8;
+  padding: 30px; }
+
+/* Contact */
+.contact {
+  background-color: #A2DED0;
+  padding: 30px;
+  margin-top: 60px;
+  padding: 50px;
+  text-align: right;
+  font-size: 2em; }
+  .contact p {
+    margin-top: -30px; }
+  .contact a {
+    text-decoration: none; }
+  .contact img {
+    height: 100px;
+    margin: 0 20px; }
 
 /* slant */
 .angle:after {
@@ -101,7 +113,7 @@ body {
   position: relative;
   width: 0%;
   height: 0px;
-  border-top: 1px solid #919ca8; }
+  border-top: 1px solid #A2DED0; }
 
 /* slant */
 .angle2:after {
@@ -115,7 +127,7 @@ body {
   position: relative;
   width: 0%;
   height: 0px;
-  border-top: 1px solid #919ca8; }
+  border-top: 1px solid #A2DED0; }
 
 /* Animations */
 #leangap {

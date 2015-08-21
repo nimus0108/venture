@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-
+    background-color: $v-color;
 }
 
 .main {
@@ -88,24 +88,6 @@ body {
         padding: 50px 30px 0 30px;
         
     }
-
-    .sponsors {
-        background-color: $intro-color;
-        padding: 30px;
-    }
-    
-    .contact {
-        padding: 30px;
-        margin-top: 60px;
-        text-align: center;
-        
-        i {
-            font-size: 5em;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
-    
     button {
         background-color: #cacfd5;
     }
@@ -114,6 +96,7 @@ body {
 
 /* faq */
 .faq {
+    background-color: $intro-color;
     margin: 30px;
     margin-top: 60px;
     
@@ -125,6 +108,35 @@ body {
     p {
         font-size: 0.7em;
         font-weight: 300;
+    }
+}
+
+/* Sponsors */
+.sponsors {
+    background-color: $intro-color;
+    padding: 30px;
+}
+
+/* Contact */
+.contact {
+    background-color: $v-color;
+    padding: 30px;
+    margin-top: 60px;
+    padding: 50px;
+    text-align: right;
+    font-size: 2em;
+    
+    p {
+        margin-top: -30px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+
+    img {
+        height: 100px;
+        margin: 0 20px;
     }
 }
 
@@ -142,7 +154,7 @@ body {
 	position: relative;
 	width: 0%;
 	height: 0px;
-	border-top: 1px solid $intro-color;
+	border-top: 1px solid $v-color;
 }
 /* slant */
 .angle2:after { 
@@ -158,7 +170,7 @@ body {
 	position: relative;
 	width: 0%;
 	height: 0px;
-	border-top: 1px solid $intro-color;
+	border-top: 1px solid $v-color;
 }
 
 /* Animations */

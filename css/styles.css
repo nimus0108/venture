@@ -47,13 +47,15 @@ body {
     text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff; }
   .intro button {
     color: #FFF;
+    transition: background-color 0.5s ease;
     border: 1px solid #FFF;
     font-size: 0.6em;
     width: 200px;
     height: 45px;
     margin-bottom: 0; }
   .intro button:hover {
-    background-color: #ecf0f1; }
+    background-color: #81CFE0;
+    border-color: #81CFE0; }
   .intro .intro-info {
     font-weight: 300;
     font-size: 2em;
@@ -82,8 +84,6 @@ body {
   margin: 10px 0 20px 0; }
   .info .content {
     padding: 50px 30px 0 30px; }
-  .info button {
-    background-color: #cacfd5; }
   .info .summary {
     margin-top: 100px;
     font-size: 1.5em; }
@@ -106,6 +106,12 @@ body {
   background-position: center;
   background-attachment: fixed;
   color: #FFF; }
+  .detailed button {
+    transition: background-color 0.5s ease; }
+  .detailed button:hover {
+    background-color: #81CFE0;
+    color: #FFF;
+    border-color: #81CFE0; }
 
 /* faq */
 .faq {
@@ -131,8 +137,18 @@ body {
   padding: 30px;
   margin-top: 30px;
   font-size: 2em; }
+  .apply h2 {
+    margin-bottom: 40px; }
+  .apply p {
+    margin-top: -30px; }
   .apply a {
     text-decoration: none; }
+  .apply button {
+    transition: background-color 0.5s ease; }
+  .apply button:hover {
+    background-color: #81CFE0;
+    color: #FFF;
+    border-color: #81CFE0; }
 
 /* Contact */
 .contact {
@@ -142,6 +158,8 @@ body {
   padding: 50px;
   text-align: right;
   font-size: 2em; }
+  .contact h2 {
+    margin-bottom: 40px; }
   .contact p {
     margin-top: -30px; }
   .contact a {
@@ -177,9 +195,5 @@ body {
   width: 0%;
   height: 0px;
   border-top: 1px solid transparent; }
-
-/* Animations */
-#leangap {
-  -vendor-animation-delay: 2s; }
 
 /*# sourceMappingURL=styles.css.map */

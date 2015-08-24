@@ -5,12 +5,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
-  background-color: #fff;
-  color: #000; }
+  background-color: #000;
+  color: #fff; }
 
 /* intro */
 .intro {
-  background-image: url(img/5.jpg);
+  background-image: url(img/5dark.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -78,7 +78,7 @@ body {
 */
 /* info */
 .info {
-  background-color: #fff;
+  background-color: #000;
   position: relative;
   font-size: 1.5em;
   margin: 10px 0 20px 0; }
@@ -143,16 +143,10 @@ body {
     margin-top: -30px; }
   .apply a {
     text-decoration: none; }
-  .apply button {
-    transition: background-color 0.5s ease; }
-  .apply button:hover {
-    background-color: #81CFE0;
-    color: #FFF;
-    border-color: #81CFE0; }
 
 /* Contact */
 .contact {
-  background-color: #ecf0f1;
+  background-color: #6C7A89;
   padding: 30px;
   margin-top: 80px;
   padding: 50px;
@@ -167,11 +161,17 @@ body {
   .contact img {
     height: 100px;
     margin: 0 20px; }
+  .contact h5 {
+    font-size: 0.7em;
+    padding: 0;
+    margin: 0;
+    margin-top: 70px;
+    margin-bottom: -20px; }
 
 /* slant */
 .angle:after {
   content: "";
-  border-top: 140px solid #fff;
+  border-top: 140px solid #000;
   border-left: 100vw solid transparent;
   position: absolute;
   top: -1px; }
@@ -185,8 +185,8 @@ body {
 /* slant */
 .angle2:after {
   content: "";
-  border-top: 140px solid #fff;
-  border-right: 100vw solid #ecf0f1;
+  border-top: 140px solid #000;
+  border-right: 100vw solid #6C7A89;
   position: absolute;
   top: -1px; }
 
@@ -195,5 +195,14 @@ body {
   width: 0%;
   height: 0px;
   border-top: 1px solid transparent; }
+
+button {
+  transition: background-color 0.5s ease;
+  color: #FFF; }
+
+button:hover {
+  background-color: #6C7A89;
+  color: #FFF;
+  border-color: #6C7A89; }
 
 /*# sourceMappingURL=styles.css.map */

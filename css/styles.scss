@@ -1,7 +1,7 @@
 $header-color: #FFF;
-$text-color :#000;
-$bg-color: #fff;
-$footer-color: #ecf0f1;
+$text-color :#fff;
+$bg-color: #000;
+$footer-color: #6C7A89;
 
 body {
     width: 100%;
@@ -19,8 +19,7 @@ body {
 
 /* intro */
 .intro {
-    
-    background-image: url(img/5.jpg);
+    background-image: url(img/5dark.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -206,16 +205,6 @@ body {
     a {
         text-decoration: none;
     }
-    
-    button {
-        transition: background-color 0.5s ease;
-    }
-
-    button:hover {
-        background-color: #81CFE0;
-        color: #FFF;
-        border-color: #81CFE0;
-    }
 }
 
 /* Contact */
@@ -278,4 +267,15 @@ body {
 	width: 0%;
 	height: 0px;
 	border-top: 1px solid transparent;
+}
+
+button {
+    transition: background-color 0.5s ease;
+    color: #FFF;
+}
+
+button:hover {
+    background-color: #6C7A89;
+    color: #FFF;
+    border-color: #6C7A89;
 }

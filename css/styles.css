@@ -17,10 +17,11 @@ body {
   height: 98vh;
   color: #FFF;
   width: 100%; }
-  .intro h2 {
+  .intro h3 {
     font-family: 'Quicksand', sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 400;
+    margin-top: 40px;
     margin-bottom: 35px; }
   .intro a {
     text-decoration: none; }
@@ -29,7 +30,8 @@ body {
     padding-top: 20px;
     font-size: 10em;
     text-align: center;
-    font-weight: 500; }
+    font-weight: 500;
+    margin-bottom: 5px; }
   .intro h3 {
     font-family: 'Quicksand', sans-serif;
     color: #FFF;
@@ -43,8 +45,7 @@ body {
   .intro #leangap {
     color: #000; }
   .intro .intro-bottom {
-    margin-top: 250px;
-    text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff; }
+    margin-top: 250px; }
   .intro button {
     color: #FFF;
     transition: background-color 0.5s ease;
@@ -83,7 +84,7 @@ body {
   font-size: 1.5em;
   margin: 10px 0 20px 0; }
   .info .content {
-    padding: 50px 30px 0 30px; }
+    padding: 50px 60px 0 60px; }
   .info .summary {
     margin-top: 100px;
     font-size: 1.5em; }
@@ -100,11 +101,14 @@ body {
 
 /* detailed info */
 .detailed {
+  /*
   background-image: url(img/real.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  */
+  background-color: #2a2a2a;
   color: #FFF; }
   .detailed button {
     transition: background-color 0.5s ease; }
@@ -116,7 +120,7 @@ body {
 /* faq */
 .faq {
   width: 100vw;
-  margin: 30px;
+  padding: 60px;
   margin-top: 60px; }
   .faq h2 {
     font-size: 1.5em;
@@ -128,13 +132,13 @@ body {
 
 /* Sponsors */
 .sponsors {
-  padding: 30px; }
+  padding: 60px; }
   .sponsors button {
     color: #FFF; }
 
 /* Apply */
 .apply {
-  padding: 30px;
+  padding: 60px;
   margin-top: 30px;
   font-size: 2em; }
   .apply h2 {
@@ -146,8 +150,8 @@ body {
 
 /* Contact */
 .contact {
-  background-color: #6C7A89;
-  padding: 30px;
+  background-color: #2a2a2a;
+  padding: 60px;
   margin-top: 80px;
   padding: 50px;
   text-align: right;
@@ -186,7 +190,7 @@ body {
 .angle2:after {
   content: "";
   border-top: 140px solid #000;
-  border-right: 100vw solid #6C7A89;
+  border-right: 100vw solid #2a2a2a;
   position: absolute;
   top: -1px; }
 

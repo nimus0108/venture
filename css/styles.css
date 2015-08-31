@@ -1,0 +1,22 @@
+#faq {
+    padding: 100px 0;
+    background-color: #4ECDC4;
+    color: #FFF;
+}
+
+#faq h2{
+    text-align: center;
+}
+
+#faq a {
+    color: gray;
+}
+
+#contact {
+    padding: 100px 0 50px 0;
+}
+
+.footer {
+    bottom: 0;
+    padding: 10px 20px;
+}

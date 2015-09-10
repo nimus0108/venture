@@ -1,7 +1,19 @@
+.header-content img{
+    margin: -15px;
+    width: 300px;
+}
+
 #faq {
-    padding: 100px 0;
-    background-color: #4ECDC4;
+    padding: 50px 0;
+    background-image: url(../img/nerd.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     color: #FFF;
+}
+
+.faq-content {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px 0;
 }
 
 #faq h2{
@@ -9,7 +21,7 @@
 }
 
 #faq a {
-    color: gray;
+    color: #4ECDC4;
 }
 
 #contact {
